@@ -31,8 +31,9 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <% if current_user %>
+        <li class="nav-link navbar-right text-muted"><%= link_to "My Lounge", user_exercises_path(current_user), class: "text-muted" %></li>
         <div class="navbar-right">
-          <p class="navbar-text">
+          <p class="navbar-text m-3">
             Signed in as <%= "#{current_user.email}" %>
           </p>
         </div>
