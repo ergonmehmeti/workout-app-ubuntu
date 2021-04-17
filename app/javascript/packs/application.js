@@ -7,6 +7,10 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require("d3")
+require("d3.v6")
+
+
 
 // THIS IS MAKING jQuery AVAILABLE EVEN INSIDE Views FOLDER
 global.$ = require("jquery")

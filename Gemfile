@@ -30,6 +30,7 @@ gem 'rexml', '~> 3.2', '>= 3.2.5'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise', '~> 4.7.3'
+gem'd3-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
